@@ -1,0 +1,103 @@
+/* General layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.top {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.text {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+#lupa, #tele, #user {
+    vertical-align: middle;
+}
+
+#fon {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Button styles */
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+#b1, #b2 {
+    margin: 10px;
+    background-color: #0078d4;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#b1:hover, #b2:hover {
+    background-color: #005a8d;
+}
+
+/* Bottom footer */
+#Bottom {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logg {
+    text-align: center;
+}
+
+.ll {
+    width: 40px;
+}
+
+.lll {
+    color: white;
+    text-decoration: none;
+}
+
+#FFon {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.f {
+    text-align: center;
+}
+
+.ff {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.buy {
+    background-color: #0078d4;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.buy:hover {
+    background-color: #005a8d;
+}
